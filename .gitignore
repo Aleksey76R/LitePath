@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.Python
+.venv/
+venv/
+env/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Данные (большие файлы)
+data/sample_log/frames/*
+data/sample_log/lidar/*
+data/dataset/images/*
+data/dataset/labels/*
+data/calib/*.yaml
+!data/**/.gitkeep
+
+# Веса моделей (кроме финальных)
+models/weights/*.pt
+models/weights/*.pth
+models/weights/*.onnx
+!models/weights/final_*.onnx
+!models/weights/.gitkeep
+
+# Результаты бенчмарков
+benchmarks/results/*.csv
+benchmarks/results/*.png
+!benchmarks/results/.gitkeep
+
+# Логи
+*.log
+logs/
+
+# ОС
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp

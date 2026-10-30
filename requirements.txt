@@ -1,0 +1,24 @@
+# Core
+numpy>=1.24
+opencv-python>=4.8
+scipy>=1.11
+
+# Deep learning
+torch>=2.1
+torchvision>=0.16
+ultralytics>=8.1
+
+# Inference
+onnx>=1.15
+onnxruntime>=1.17
+
+# Utils
+pyyaml>=6.0
+psutil>=5.9
+tqdm>=4.66
+
+# Testing
+pytest>=7.4
+
+# LiDAR (раскомментировать, когда дойдёшь до лидара)
+# open3d>=0.17
